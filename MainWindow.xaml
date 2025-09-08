@@ -8,14 +8,14 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <!-- Header -->
+      
         <StackPanel Grid.Row="0" Background="white" Margin="0,0,0,10">
             <TextBlock Text="Contract Monthly Claim System" FontSize="24" Margin="20" HorizontalAlignment="Center"/>
         </StackPanel>
 
-        <!-- Main Content -->
+   
         <TabControl Grid.Row="1" Margin="10" x:Name="tabControl" >
-            <!-- Lecturer Tab -->
+            
             <TabItem Header="Lecturer Dashboard" x:Name="lecturerTab" Background="Black">
                 <Grid Margin="10">
                     <Grid.RowDefinitions>
@@ -24,7 +24,7 @@
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
 
-                    <!-- Claim Submission -->
+               
                     <GroupBox Grid.Row="0" Header="Submit New Claim" Margin="5">
                         <StackPanel Margin="10">
                             <StackPanel Orientation="Horizontal" Margin="0,5">
@@ -62,7 +62,6 @@
                         </StackPanel>
                     </GroupBox>
 
-                    <!-- Claim Status -->
                     <GroupBox Grid.Row="1" Header="Claim Status" Margin="5">
                         <DataGrid AutoGenerateColumns="False" Height="200">
                             <DataGrid.Columns>
@@ -77,7 +76,7 @@
                 </Grid>
             </TabItem>
 
-            <!-- Approver Tab -->
+            
             <TabItem Header="Approver Dashboard" x:Name="approverTab" Background="Black">
                 <Grid Margin="10">
                     <Grid.RowDefinitions>
@@ -85,7 +84,7 @@
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
 
-                    <!-- Claim Review -->
+                    
                     <GroupBox Grid.Row="0" Header="Pending Claims" Margin="5">
                         <StackPanel Margin="10">
                             <DataGrid AutoGenerateColumns="False" Height="300">
