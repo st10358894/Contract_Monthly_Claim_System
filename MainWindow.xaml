@@ -9,7 +9,7 @@
         </Grid.RowDefinitions>
 
         <!-- Header -->
-        <StackPanel Grid.Row="0" Background="White" Margin="0,0,0,10">
+        <StackPanel Grid.Row="0" Background="Red" Margin="0,0,0,10">
             <TextBlock Text="Contract Monthly Claim System" FontSize="24" Margin="20" HorizontalAlignment="Center"/>
         </StackPanel>
 
