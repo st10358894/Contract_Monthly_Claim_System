@@ -9,14 +9,14 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <!-- Header -->
+        
         <TextBlock Grid.Row="0" Text="Contract Monthly Claim System" FontSize="20" 
                    Margin="20,10" HorizontalAlignment="Center"
                    FontWeight="Bold"/>
 
-        <!-- Tab Control for Login and Register -->
+    
         <TabControl Grid.Row="1" Margin="20" x:Name="tabControl" BorderBrush="#FF00BFFF">
-            <!-- Login Tab -->
+           
             <TabItem Header="Login">
                 <Grid Margin="10">
                     <Grid.RowDefinitions>
@@ -51,7 +51,7 @@
                 </Grid>
             </TabItem>
 
-            <!-- Register Tab -->
+           
             <TabItem Header="Register">
                 <Grid Margin="10">
                     <Grid.RowDefinitions>
