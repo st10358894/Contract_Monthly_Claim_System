@@ -50,7 +50,7 @@
             <Setter Property="Padding" Value="5"/>
         </Style>
         <Style TargetType="Label">
-            <Setter Property="Foreground" Value="LightSeaGreen"/>
+            <Setter Property="Foreground" Value="LightGreen"/>
         </Style>
         <Style TargetType="ComboBox">
             <Setter Property="Background" Value="#FF2D2D2D"/>
